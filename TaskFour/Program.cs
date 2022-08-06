@@ -19,3 +19,5 @@ if(max< number3){
     max = number3;
 }
 System.Console.WriteLine("Наибольше число из трех = " + max);
+
+    
