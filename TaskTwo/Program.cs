@@ -10,6 +10,9 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 if(number1> number2){
     Console.WriteLine("Первое число больше второго");
 }
-else{
+else if(number1<number2){
     Console.WriteLine("Второе число больше первого");
+}
+else{
+    Console.WriteLine("Вы ввели два одинаковых варианта!.");
 }
